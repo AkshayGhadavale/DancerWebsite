@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Roboto Slab", serif;
 }
 
 /********Loader**********/
@@ -140,8 +142,7 @@
 }
 .navlist li a {
   font-size: 1.1rem;
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   color: aliceblue;
   text-decoration: none;
 }
@@ -175,14 +176,12 @@
 }
 .main-textsec h1 {
   margin-top: 30px;
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   font-size: 5rem;
   color: rgb(255, 255, 255);
 }
 .main-textsec p {
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   font-size: 1rem;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
@@ -201,8 +200,7 @@
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -265,14 +263,12 @@
 
 .dancetour-text-sec h1 {
   margin-top: 30px;
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   font-size: 4rem;
   color: rgb(255, 255, 255);
 }
 .dancetour-text-sec p {
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   font-size: 1rem;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
@@ -356,7 +352,7 @@
   color: white;
   text-align: center;
   width: 80%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 }
 
 .slider-sec  .scard img {
@@ -391,14 +387,12 @@
 
 .pricing-text-sec h1 {
   margin-top: 30px;
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   font-size: 4rem;
   color: rgb(255, 255, 255);
 }
 .pricing-text-sec p {
-  font-family: "Edu TAS Beginner", cursive;
-  font-family: "Roboto Slab", serif;
+ 
   font-size: 1rem;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
@@ -424,7 +418,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .third-pricing-sec .scard-textsec {
@@ -444,7 +438,7 @@
   color: white;
   text-align: center;
   width: 80%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 }
 
 .third-pricing-sec .scardp img {
@@ -594,33 +588,13 @@ padding-bottom: 20px;
   text-align: center;
 
   color: #c85000;
-  font-family: "Baloo 2", cursive;
-
-  font-family: "Caveat", cursive;
-
-  font-family: "Dosis", sans-serif;
-
-  font-family: "Fuzzy Bubbles", cursive;
-
-  font-family: "Raleway Dots", cursive;
-
-  font-family: "Signika", sans-serif;
+  
 }
 .footerlist :first-child {
   font-size: 20px;
   color: #c85000;
   font-weight: 500;
-  font-family: "Baloo 2", cursive;
-
-  font-family: "Caveat", cursive;
-
-  font-family: "Dosis", sans-serif;
-
-  font-family: "Fuzzy Bubbles", cursive;
-
-  font-family: "Raleway Dots", cursive;
-
-  font-family: "Signika", sans-serif;
+  
 }
 
 .footersec3 {
@@ -763,7 +737,7 @@ padding-bottom: 20px;
     font-size: 30px;
     text-decoration: none;
     color: white;
-    font-family: sans-serif;
+
     font-weight: 500;
   }
 
@@ -801,15 +775,13 @@ padding-bottom: 20px;
 
   .dancetour-text-sec h1 {
     margin-top: 30px;
-    font-family: "Edu TAS Beginner", cursive;
-    font-family: "Roboto Slab", serif;
+
     font-size: 3rem;
     color: rgb(255, 255, 255);
     text-align: center;
   }
   .dancetour-text-sec p {
-    font-family: "Edu TAS Beginner", cursive;
-    font-family: "Roboto Slab", serif;
+   
     font-size: 1rem;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
