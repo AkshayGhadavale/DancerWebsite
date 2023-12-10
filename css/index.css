@@ -480,13 +480,13 @@ padding-bottom: 20px;
   flex-direction: row-reverse;
   position: relative;
 }
-.amezdance-sec .rightsec {
+.amezdance-sec .imageleftsec {
   width: 50%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-.amezdance-sec .rightsec .imgsec {
+.amezdance-sec .imageleftsec .imgsec {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -504,13 +504,13 @@ padding-bottom: 20px;
   z-index: -1;
 }
 
-.amezdance-sec .rightsec:hover .imgsec {
+.amezdance-sec .imageleftsec:hover .imgsec {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.amezdance-sec .leftsec {
+.amezdance-sec .righttextsec {
   width: 50%;
   height: 100%;
   background-color: #c85000;
@@ -521,12 +521,12 @@ padding-bottom: 20px;
 }
 
 .amezdance-sec .textsec4 {
-  width: 80%;
-  height: 80%;
+ 
 
   background-color: transparent;
   color: white;
   display: flex;
+  margin-left: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -535,7 +535,7 @@ padding-bottom: 20px;
   padding: 0;
   font-size: 15px;
   text-align: left;
-  width: 100%;
+  width: 60%;
   color: white;
   font-weight: 100;
   z-index: 99;
@@ -664,7 +664,7 @@ padding-bottom: 20px;
 
 
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+@media only screen and (min-width: 360px) and (max-width: 640px) {
   /* navbarsection  for mobile Start */
   .logosec img {
     width: 100%;
@@ -843,7 +843,7 @@ padding-bottom: 20px;
 
   .third-pricing-sec {
     width: 100%;
-    height: 150vh;
+    height: 180vh;
     background-color: #2c2c2c;
     display: flex;
     flex-direction: column;
@@ -874,19 +874,19 @@ padding-bottom: 20px;
 
   .amezdance-sec {
     width: 100%;
-    height: 80vh;
+    height: 110vh;
     display: flex;
     flex-direction: column-reverse;
-    /* flex-direction: row-reverse; */
+   
     position: relative;
   }
-  .amezdance-sec .rightsec {
+  .amezdance-sec .imageleftsec {
     width: 100%;
-    height: 100%;
+    height: 50%;
     overflow: hidden;
     position: relative;
   }
-  .amezdance-sec .rightsec .imgsec {
+  .amezdance-sec .imageleftsec .imgsec {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -903,14 +903,14 @@ padding-bottom: 20px;
     z-index: -1;
   }
 
-  .amezdance-sec .rightsec:hover .imgsec {
+  .amezdance-sec .imageleftsec:hover .imgsec {
     -moz-transform: scale(2, 2);
     -webkit-transform: scale(2, 2);
     transform: scale(2, 2);
   }
-  .amezdance-sec .leftsec {
+  .amezdance-sec .righttextsec {
     width: 100%;
-    height: 100%;
+    height: 50%;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -921,7 +921,7 @@ padding-bottom: 20px;
 
   .footer-sec {
     width: 100%;
-    height: 115vh;
+    height: 140vh;
     background-color: #2c2c2c;
     z-index: 7;
     flex-direction: column;
@@ -994,10 +994,11 @@ padding-bottom: 20px;
   .footerlist :first-child {
     font-weight: 800;
     padding-top: 10px;
+    color: white;
   }
 }
 
-@media only screen and (min-device-width: 640px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
   .logosec {
     display: flex;
     justify-content: center;
@@ -1041,8 +1042,9 @@ padding-bottom: 20px;
 
   /********preicing ********/
 
+  
   .third-pricing-sec .scard-contain {
-    width: 180px;
+    width: 200px;
     height: 320px;
     background-color: #c85000;
     border-radius: 10px;
