@@ -5,8 +5,8 @@
 <!-- Webpage should have a lazy load on the images.--> css images pending 
 
 <!-- Use Owl Carousel for the sliders. -->
-
-Webpage should work properly on all modern browsers (Chrome, Firefox, Opera, Microsoft Edge).
+<!-- 
+Webpage should work properly on all modern browsers (Chrome, Firefox, Opera, Microsoft Edge). -->
 
 <!-- Use dummy images & dummy content wherever required. -->
 
