@@ -156,7 +156,7 @@
 .mainsec {
   width: 100%;
   height: 90vh;
-  background-image: url("/images/mainbgimage.png");
+  background-image: url("./images/mainbgimage.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -483,7 +483,7 @@ padding-bottom: 20px;
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
   transform: scale(1);
-  background-image: url(/images/mobilemain.png);
+  background-image: url(./images/mobilemain.png);
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
@@ -773,7 +773,7 @@ padding-bottom: 20px;
   .mainsec {
     width: 100%;
     height: 90vh;
-    background-image: url("/images/mobilemain.png");
+    background-image: url("./images/mobilemain.png");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat;
@@ -889,7 +889,7 @@ padding-bottom: 20px;
     -moz-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    background-image: url(/images/mobilemain.png);
+    background-image: url(./images/mobilemain.png);
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
